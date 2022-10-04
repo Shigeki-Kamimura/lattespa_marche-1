@@ -2,17 +2,17 @@
     <div>
         <div>運営会社情報</div>
         <div class="latee_box">
-            <div>
-                <img src="lattepla_logo.png" alt="Latte planning total beauty produce">
+            <div class="foot_1">
+                <img src="<?= $base ?>lattepla_logo.png" alt="Latte planning total beauty produce"class="foot_logo">
                 <div>株式会社ラテプランニング</div>
             </div>
-            <div>
+            <adress class="foot_about">
                 <div>〒101-0023</div>
                 <div>東京都千代田区神田松永町７ヤマリビル５階</div>
                 <div>TEL:03-6206-0043</div>
                 <div>FAX:03-6206-0046</div>
                 <div>営業時間AM10:00-PM5:00</div>
-            </div>
+            </adress>  
         </div>
         <img src="kakeru.png" alt="×">
         <div class="nr_box">
