@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<link rel="stylesheet" href="style-ozawa.css">
+</head>
+<body>
+<?php include_once('footer.php');?>
+</body>
+</html>
 <footer>
     <div>
         <div>運営会社情報</div>
@@ -28,7 +39,7 @@
             </div>
     </div> 
     <div>
-         <div>Copyright(c) 2022 Latee Planning Co.,Ltd. ALL Rights Reserved.</div>
+         <div class="Copyright">2022 Latee Planning Co.,Ltd. ALL Rights Reserved.</div>
     </div>
 </footer>
 
