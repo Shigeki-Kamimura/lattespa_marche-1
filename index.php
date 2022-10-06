@@ -30,7 +30,10 @@ $base = './';
             <img class="pc" src="fv_pc.png" alt="">
             <img class="smart" src="fv_smart.png" alt="">
             <img class="open" src="fv_open.png" alt="">
-            <a class="btn" href="">出展者募集中！</a>
+            <a class="btn" href="">
+                出展者募集中！
+                <img class="arrow" src="yajirushi.png" alt="">
+            </a>
         </div>
         <section id="intro">
             <div class="group">
@@ -43,7 +46,10 @@ $base = './';
                     ここでは、そもそも「LATEE+SPAビューティオンラインマルシェ」とは何かの紹介を紹介を100字程度で行う。
                 </p>
             </div>
-            <a class="btn" href="">出展者募集中！</a>
+            <a class="btn" href="">
+                出展者募集中！
+                <img class="arrow" src="yajirushi.png" alt="">
+            </a>
         </section>
     </main>
 <?php include_once('./footer.php'); ?>

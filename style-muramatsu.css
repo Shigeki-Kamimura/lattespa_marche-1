@@ -19,6 +19,7 @@ header {
 body {
     margin: 0;
     font-family: 'Zen Maru Gothic', 'sans-serif';
+    background-color: #F5F5F5;
 }
 
 section {
@@ -44,6 +45,15 @@ section {
     transform: translateX(-50%);
     width: 240px;
     padding-left: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow {
+    position: absolute;
+    width: 32px;
+    top: 54%;
+    transform: translateY(-50%);
+    right: 10%;
 }
 
 .fv {
@@ -87,21 +97,20 @@ section {
 }
 
 .fv a {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
     width: 240px;
     box-sizing: border-box;
     border-radius: 15px;
+    display: block;
 }
 
 @media (min-width: 1024px) {
     .fv a {
+        position: absolute;
         left: 82%;
-        bottom: 14%;
+        bottom: 12%;
         font-size: 18px;
-        padding: 24px;
+        padding: 32px;
         border-radius: 30px;
         width: 280px;
     }
@@ -115,12 +124,14 @@ section {
 #intro h1 {
     width: fit-content;
     margin: auto;
-    font-size: 28px;
-    line-height: 48px;
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: normal;
 }
 
 #intro h1 span {
     color: #FF9A9E;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -133,11 +144,16 @@ section {
 
     #intro h1 {
         margin: 0;
-        font-size: 32px;
-        line-height: 56px;
     }
 
     #intro p {
-        width: 60%;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #intro h1 {
+        font-size: 48px;
+        line-height: 80px;
     }
 }
