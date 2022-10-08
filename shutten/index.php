@@ -63,15 +63,51 @@ $base = '../';
         </section>
         <section id="flow">
             <h3>出展の流れ</h3>
+            <div>
+                <div>
+                    <h4>出展申し込み</h4>
+                    <p>文章が入ります。</p>
+                </div>
+                <img src="" alt="">
+                <div>
+                    <h4>個人ページ制作のための取材</h4>
+                    <p>文章が入ります。</p>
+                </div>
+                <img src="" alt="">
+                <div>
+                    <h4>個人ページ制作・完成</h4>
+                    <p>文章が入ります。</p>
+                </div>
+                <img src="" alt="">
+                <div>
+                    <h4>出展開始</h4>
+                    <p>文章が入ります。</p>
+                </div>
+            </div>
+            <p>ご出展を申し込む前に注意事項をご確認ください。</p>
+            <a class="btn" href="">
+                確認する
+                <img class="arrow" src="<?= $base ?>yajirushi.png" alt="">
+            </a>
         </section>
         <section id="campaign">
             <h3>現在、キャンペーン中！</h3>
+            <p>LATEE+SPAビューティオンラインマルシェ初開催を記念して、出展・取材費用として2万円かかるところが...</p>
+            <p>先着5件までは無料で実施！！</p>
+            <a class="btn" href="">
+                お問い合わせへ
+                <img class="arrow" src="<?= $base ?>yajirushi.png" alt="">
+            </a>
         </section>
         <section id="attention">
             <h3>出展する上での注意事項</h3>
         </section>
         <section id="form">
             <h3>ご出展申し込みフォーム</h3>
+            <a class="btn" href="">
+                確認する
+                <img class="arrow" src="<?= $base ?>yajirushi.png" alt="">
+            </a>
         </section>
     </main>
 <?php include_once($base . 'footer.php'); ?>
