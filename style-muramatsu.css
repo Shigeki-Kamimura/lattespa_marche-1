@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/*ヘッダー*/
+header {
+    background-color: FF9A9E;
+    padding: 16px;
+}
+
+.logo_wrapper {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.logo_wrapper img {
+    width: 240px;
+}
+
+/*メイン*/
+body {
+    margin: 0;
+    font-family: 'Zen Maru Gothic', 'sans-serif';
+    background-color: #F5F5F5;
+}
+
+section {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 16px;
+    margin-bottom: 80px;
+}
+
+.btn {
+    background: linear-gradient(118.24deg, #FF9A9E 20.36%, #FAD0C4 73.45%);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px;
+    padding-right: 64px;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 240px;
+    padding-left: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow {
+    position: absolute;
+    width: 32px;
+    top: 54%;
+    transform: translateY(-50%);
+    right: 10%;
+}
+
+.fv {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.fv .smart {
+    width: 100%;
+}
+
+.fv .pc {
+    display: none;
+}
+
+.fv .open {
+    position: absolute;
+    width: 50%;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 480px) {
+    .fv .pc {
+        display: block;
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    .fv .smart {
+        display: none;
+    }
+
+    .fv .open {
+        top: 16%;
+        width: 24%;
+    }
+}
+
+.fv a {
+    position: relative;
+    width: 240px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .fv a {
+        position: absolute;
+        left: 82%;
+        bottom: 12%;
+        font-size: 18px;
+        padding: 32px;
+        border-radius: 30px;
+        width: 280px;
+    }
+}
+
+#intro {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#intro h1 {
+    width: fit-content;
+    margin: auto;
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: normal;
+}
+
+#intro h1 span {
+    color: #FF9A9E;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    #intro .group {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #intro h1 {
+        margin: 0;
+    }
+
+    #intro p {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #intro h1 {
+        font-size: 48px;
+        line-height: 80px;
+    }
+}
