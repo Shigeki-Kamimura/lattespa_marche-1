@@ -20,6 +20,7 @@ body {
     margin: 0;
     font-family: 'Zen Maru Gothic', 'sans-serif';
     background-color: #F5F5F5;
+    letter-spacing: 0.2em;
 }
 
 section {
@@ -67,6 +68,10 @@ section {
     width: 100%;
 }
 
+.fv .smart_1 {
+    display: none;
+}
+
 .fv .pc {
     display: none;
 }
@@ -81,6 +86,26 @@ section {
 
 @media (min-width: 480px) {
     .fv .pc {
+        display: none;
+    }
+
+    .fv .smart {
+        display: none;
+    }
+
+    .fv .smart_1 {
+        display: block;
+        width: 100%;
+    }
+
+    .fv .open {
+        top: 30%;
+        width: 32%;
+    }
+}
+
+@media (min-width: 700px) {
+    .fv .pc {
         display: block;
         width: 100%;
         max-width: 1280px;
@@ -90,11 +115,15 @@ section {
         display: none;
     }
 
+    .fv .smart_1 {
+        display: none;
+    }
+
     .fv .open {
         top: 16%;
         width: 24%;
     }
-}
+} 
 
 .fv a {
     position: relative;
@@ -104,7 +133,7 @@ section {
     display: block;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
     .fv a {
         position: absolute;
         left: 82%;
