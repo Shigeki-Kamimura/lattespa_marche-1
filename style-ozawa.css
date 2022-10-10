@@ -1,7 +1,29 @@
 @charset "UTF-8";
 footer {
     background-color:aliceblue;
+    padding: 16px;
 }
-.foot_about {
-margin: 0%;
+
+.latte_box{
+    max-width: 1280px; 
+    margin: auto;
+}
+.foot_1 img {
+    width: 240ex;
+}
+
+.box{
+    float:left;
+    margin: auto;
+    padding: 16px;
+}
+
+.box_1{
+    float: left;
+    margin: auto;
+    padding: 16px;
+}
+
+.boxContainer{
+    overflow: hidden;
 }
