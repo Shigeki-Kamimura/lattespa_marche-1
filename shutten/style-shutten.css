@@ -23,11 +23,12 @@
 #flow .bg_white,
 #campaign .bg_white,
 #form .bg_white {
-    padding-bottom: 80px;
+    padding-bottom: 112px;
 }
 
 .btn {
-    bottom: 16px;
+    bottom: 32px;
+    text-align: center;
 }
 
 h3 {
@@ -86,21 +87,22 @@ h3 {
 @media(min-width: 720px) {
     .fv h2 {
         text-align: center;
+        line-height: 48px;
     }
 
     .fv h2 img {
         display: block;
         position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .fv h2 .left {
         left: -64px;
-        top: -4px;
     }
 
     .fv h2 .right {
         right: -64px;
-        top: -4px;
     }
 }
 
@@ -135,10 +137,15 @@ h3 {
     margin: 24px 0;
 }
 
-@media(min-width: 960px) {
+@media(min-width: 768px) {
     #genre .flexbox {
         display: flex;
-        justify-content: space-evenly
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #genre .flexbox .content {
+        width: 30%;
     }
 }
 
@@ -150,30 +157,74 @@ h3 {
 #flow .content {
     border-radius: 16px;
     position: relative;
-    padding: 8px;
+    padding: 16px 8px;
     margin: auto;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     max-width: 560px;
 }
 
 #flow .content h4 {
     position: absolute;
     top: -36px;
-    left: 52px;
+    left: 64px;
 }
 
 #flow .content span {
     position: absolute;
-    top: -24px;
+    top: -32px;
     left: 16px;
-    font-size: 24px;
+    font-size: 32px;
     color: #FF9A9E;
     font-weight: bold;
 }
 
+#flow .flexbox {
+    margin: 32px auto;
+}
+
+#flow .flexbox .img_wrapper {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#flow .flexbox .down {
+    width: 16px;
+}
+
+#flow .flexbox .right {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    #flow .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 880px;
+        margin: auto
+    }
+
+    #flow .flexbox .right {
+        display: block;
+        width: 72%;
+        margin: auto;
+        margin-top: 92px;
+    }
+
+    #flow .flexbox .down {
+        display: none;
+    }
+
+    #flow .content {
+        width: 40%;
+        margin: 24px auto;
+    }
+}
+
 #flow .check {
     width: fit-content;
-    margin: auto;
+    margin: 16px auto;
+    margin-bottom: 32px;
 }
 
 #campaign h3 {
@@ -188,7 +239,40 @@ h3 {
 2px 2px 0 #FF9A9E;
 }
 
-#campaign p {
-    max-width: 720px;
-    margin: auto;
+#campaign .pink {
+    font-size: 20px;
+    width: 80%;
+    margin: 24px auto;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    max-width: 320px;
+}
+
+#campaign .pink img {
+    position: absolute;
+    width: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#campaign .pink .left {
+    left: -15%; 
+}
+
+#campaign .pink .right {
+    right: -13%;
+}
+
+#campaign .center {
+    text-align: center;
+}
+
+#form p {
+    width: fit-content;
+    margin: 16px auto;
+}
+
+#form p span {
+    color: #FF9A9E;
 }
