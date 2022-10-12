@@ -32,7 +32,7 @@ $base = './';
             <img class="smart_1" src="fv_smart_1.png" alt="">
             <img class="smart" src="fv_smart.png" alt="">
             <img class="open" src="fv_open.png" alt="">
-            <a class="btn" href="">
+            <a class="btn" href="./shutten">
                 出展者募集中！
                 <img class="arrow" src="yajirushi.png" alt="">
             </a>
@@ -48,7 +48,7 @@ $base = './';
                     ここでは、そもそも「LATEE+SPAビューティオンラインマルシェ」とは何かの紹介を紹介を100字程度で行う。
                 </p>
             </div>
-            <a class="btn" href="">
+            <a class="btn" href="./shutten">
                 出展者募集中！
                 <img class="arrow" src="yajirushi.png" alt="">
             </a>

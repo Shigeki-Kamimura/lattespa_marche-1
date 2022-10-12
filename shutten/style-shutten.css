@@ -239,6 +239,11 @@ h3 {
 2px 2px 0 #FF9A9E;
 }
 
+#campaign .p {
+    width: fit-content;
+    margin: 16px auto;
+}
+
 #campaign .pink {
     font-size: 20px;
     width: 80%;
@@ -262,6 +267,10 @@ h3 {
 
 #campaign .pink .right {
     right: -13%;
+}
+
+#campaign .pink span {
+    background: linear-gradient(transparent 50%, #FFECE7 50%);
 }
 
 #campaign .center {

@@ -137,10 +137,10 @@ $base = '../';
         <section id="campaign">
             <div class="bg_white">
                 <h3>現在、キャンペーン中！</h3>
-                <p>LATEE+SPAビューティオンラインマルシェ初開催を記念して、出展・取材費用として2万円かかるところが...</p>
+                <p class="p">LATEE+SPAビューティオンラインマルシェ初開催を記念して、出展・取材費用として2万円かかるところが...</p>
                 <p class="pink">
                     <img class="left" src="left_pink_light.png" alt="">
-                    先着5件までは無料で実施！！
+                    先着5件までは<span>無料</span>で実施！！
                     <img class="right" src="right_pink_light.png" alt="">
                 </p>
                 <p class="center">お早い出展がお得です。</p>
