@@ -31,13 +31,13 @@ $base = './';
             <img class="pc" src="fv_pc.png" alt="">
             <img class="smart_1" src="fv_smart_1.png" alt="">
             <img class="smart" src="fv_smart.png" alt="">
-            <img class="open" src="fv_open.png" alt="">
-            <a class="btn" href="./shutten">
+            <img class="open" src="fv_open.png" alt="LATEE+SPAビューティオンラインマルシェ12/1からオープン予定">
+            <a class="btn" href="./shutten/">
                 出展者募集中！
-                <img class="arrow" src="yajirushi.png" alt="">
+                <img class="arrow" src="yajirushi.png" alt="&gt">
             </a>
         </div>
-        <section id="intro">
+        <section id="intro" class="basic_block">
             <div class="group">
                 <h1>
                     様々な分野の<br>
@@ -48,9 +48,9 @@ $base = './';
                     ここでは、そもそも「LATEE+SPAビューティオンラインマルシェ」とは何かの紹介を紹介を100字程度で行う。
                 </p>
             </div>
-            <a class="btn" href="./shutten">
+            <a class="btn" href="./shutten/">
                 出展者募集中！
-                <img class="arrow" src="yajirushi.png" alt="">
+                <img class="arrow" src="yajirushi.png" alt="&gt">
             </a>
         </section>
     </main>

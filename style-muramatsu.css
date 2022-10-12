@@ -23,7 +23,7 @@ body {
     letter-spacing: 0.2em;
 }
 
-section {
+.basic_block {
     max-width: 1280px;
     margin: auto;
     padding: 0 16px;
@@ -42,8 +42,9 @@ section {
     letter-spacing: 4px;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
     width: 240px;
     padding-left: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -80,8 +81,9 @@ section {
     position: absolute;
     width: 50%;
     top: 37%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 @media (min-width: 480px) {
@@ -136,7 +138,7 @@ section {
 @media (min-width: 900px) {
     .fv a {
         position: absolute;
-        left: 82%;
+        left: 62%;
         bottom: 12%;
         font-size: 18px;
         padding: 32px;
@@ -168,7 +170,6 @@ section {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     #intro h1 {
@@ -176,7 +177,7 @@ section {
     }
 
     #intro p {
-        width: 50%;
+        flex-basis: 50%;
     }
 }
 

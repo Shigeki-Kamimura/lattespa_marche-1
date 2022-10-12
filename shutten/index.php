@@ -40,7 +40,7 @@ $base = '../';
                 <img class="right" src="right_pink_dark.png" alt="">
             </h2>
         </div>
-        <section id="genre">
+        <section id="genre" class="basic_block">
             <div class="bg_white">
                 <h3>こんな出展ができます！</h3>
                 <p>
@@ -80,7 +80,7 @@ $base = '../';
                 </div>
             </div>
         </section>
-        <section id="flow">
+        <section id="flow" class="basic_block">
             <div class="bg_white">
                 <h3>出展の流れ</h3>
                 <div class="flexbox">
@@ -130,11 +130,11 @@ $base = '../';
                 <p class="check">ご出展を申し込む前に注意事項をご確認ください。</p>
                 <a class="btn" href="">
                     確認する
-                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="">
+                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="&gt">
                 </a>
             </div>
         </section>
-        <section id="campaign">
+        <section id="campaign" class="basic_block">
             <div class="bg_white">
                 <h3>現在、キャンペーン中！</h3>
                 <p class="p">LATEE+SPAビューティオンラインマルシェ初開催を記念して、出展・取材費用として2万円かかるところが...</p>
@@ -146,25 +146,25 @@ $base = '../';
                 <p class="center">お早い出展がお得です。</p>
                 <a class="btn" href="">
                     お問い合わせへ
-                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="">
+                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="&gt">
                 </a>
             </div>
         </section>
-        <section id="attention">
+        <section id="attention" class="basic_block">
             <div class="bg_white">
                 <h3>出展する上での注意事項</h3>
             </div>
         </section>
-        <section id="form">
+        <section id="form" class="basic_block">
             <div class="bg_white">
                 <h3>ご出展申し込みフォーム</h3>
                 <p>
-                    ご留意事項を確認のうえ、下記のフォームに必要事項を入力し送信してください。<br>
+                    留意事項を確認のうえ、下記のフォームに必要事項を入力し送信してください。<br>
                     <span>*マークは必須事項です</span>
                 </p>
                 <a class="btn" href="">
                     確認する
-                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="">
+                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="&gt">
                 </a>
             </div>
         </section>
