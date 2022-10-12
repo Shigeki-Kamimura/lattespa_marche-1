@@ -11,7 +11,7 @@
 </html>
 <footer>
     <div>
-        <div>運営会社情報</div>
+        <div class=title>運営会社情報</div>
         <div class="latee_box">
             <div class="boxContainer"> 
             <div class="box"> 
@@ -28,7 +28,9 @@
                 <div>営業時間AM10:00-PM5:00</div>
             </div>  
         </div>
+        <div Class="kakeru">
         <img src="kakeru.png" alt="×">
+        </div>
         <div class="nr_box">
             <div class="boxContainer">
             <div class="box_1">
@@ -38,6 +40,7 @@
             </div>
             </div>
             <div class="box_1">
+            <div class="foot_3">
                  <div> 〒368-1211</div>
                  <div> 長野県上田市下之郷812-1</div>
                  <div> TEL:0268-71-7315</div>
@@ -45,7 +48,7 @@
             </div>
     </div> 
     <div>
-         <div class="Copyright">2022 Latee Planning Co.,Ltd. ALL Rights Reserved.</div>
+         <div class="Copyright">&copy;2022 Latee Planning Co.,Ltd. ALL Rights Reserved.</div>
     </div>
 </footer>
 
