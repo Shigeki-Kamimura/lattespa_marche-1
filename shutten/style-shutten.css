@@ -1,18 +1,34 @@
 @charset "UTF-8";
 
-.fv h2 span {
-    color: #FF9A9E;
+.content {
+    background-color: #FFECE7;
 }
 
-#genre,
-#flow,
-#campaign,
-#attention,
-#form {
+.bg_white {
     background-color: #FFFFFF;
     border-radius: 16px;
     position: relative;
-    padding-top: 16px;
+    padding: 16px 8px 8px;
+    max-width: 1080px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+@media(min-width: 768px) {
+    .bg_white {
+        padding: 32px;
+    }
+}
+
+#flow .bg_white,
+#campaign .bg_white,
+#form .bg_white {
+    padding-bottom: 112px;
+}
+
+.btn {
+    bottom: 32px;
+    text-align: center;
 }
 
 h3 {
@@ -23,4 +39,240 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     width: 320px;
+}
+
+.fv {
+    position: relative;
+}
+
+.fv .img_wrapper {
+    text-align: center;
+}
+
+.fv .img_wrapper img {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    height: 45%;
+}
+
+.fv h1 {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    color: #D78689;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 32px 0;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+}
+
+.fv h2 {
+    width: fit-content;
+    margin: auto;
+    margin-top: 32px;
+    padding: 0 16px;
+    position: relative;
+}
+
+.fv h2 img {
+    display: none;
+}
+
+@media(min-width: 720px) {
+    .fv h2 {
+        text-align: center;
+        line-height: 48px;
+    }
+
+    .fv h2 img {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .fv h2 .left {
+        left: -64px;
+    }
+
+    .fv h2 .right {
+        right: -64px;
+    }
+}
+
+.fv h2 span {
+    color: #FF9A9E;
+}
+
+#genre .flexbox .content {
+    border-radius: 32px;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 32px;
+    max-width: 480px;
+}
+
+#genre .flexbox .content h4 {
+    text-align: center;
+}
+
+#genre .flexbox .content p {
+    width: fit-content;
+    margin: auto;
+}
+
+#genre .flexbox .content .img_wrapper {
+    text-align: center;
+}
+
+#genre .flexbox .content img {
+    width: 100%;
+    max-width: 320px;
+    margin: 24px 0;
+}
+
+@media(min-width: 768px) {
+    #genre .flexbox {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #genre .flexbox .content {
+        width: 30%;
+    }
+}
+
+#flow .bg_white {
+    padding: 32px 8px;
+    padding-bottom: 80px;
+}
+
+#flow .content {
+    border-radius: 16px;
+    position: relative;
+    padding: 16px 8px;
+    margin: auto;
+    margin-bottom: 16px;
+    max-width: 560px;
+}
+
+#flow .content h4 {
+    position: absolute;
+    top: -36px;
+    left: 64px;
+}
+
+#flow .content span {
+    position: absolute;
+    top: -32px;
+    left: 16px;
+    font-size: 32px;
+    color: #FF9A9E;
+    font-weight: bold;
+}
+
+#flow .flexbox {
+    margin: 32px auto;
+}
+
+#flow .flexbox .img_wrapper {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#flow .flexbox .down {
+    width: 16px;
+}
+
+#flow .flexbox .right {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    #flow .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 880px;
+        margin: auto
+    }
+
+    #flow .flexbox .right {
+        display: block;
+        width: 72%;
+        margin: auto;
+        margin-top: 92px;
+    }
+
+    #flow .flexbox .down {
+        display: none;
+    }
+
+    #flow .content {
+        width: 40%;
+        margin: 24px auto;
+    }
+}
+
+#flow .check {
+    width: fit-content;
+    margin: 16px auto;
+    margin-bottom: 32px;
+}
+
+#campaign h3 {
+    color: #FFFFFF;
+    text-shadow: -2px -2px 0 #FF9A9E,
+-2px 0 0 #FF9A9E,
+-2px 2px 0#FF9A9E,
+0 -2px 0 #FF9A9E,
+0 2px 0 #FF9A9E,
+2px -2px 0 #FF9A9E,
+2px 0 0 #FF9A9E,
+2px 2px 0 #FF9A9E;
+}
+
+#campaign .pink {
+    font-size: 20px;
+    width: 80%;
+    margin: 24px auto;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    max-width: 320px;
+}
+
+#campaign .pink img {
+    position: absolute;
+    width: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#campaign .pink .left {
+    left: -15%; 
+}
+
+#campaign .pink .right {
+    right: -13%;
+}
+
+#campaign .center {
+    text-align: center;
+}
+
+#form p {
+    width: fit-content;
+    margin: 16px auto;
+}
+
+#form p span {
+    color: #FF9A9E;
 }

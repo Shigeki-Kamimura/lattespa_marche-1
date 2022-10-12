@@ -18,6 +18,7 @@ $base = './';
 <meta property="og:image" content="https://">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="<?= $base ?>style.css">
+<link rel="stylesheet" href="<?= $base ?>style-ozawa.css">
 <link rel="stylesheet" href="<?= $base ?>style-muramatsu.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +29,7 @@ $base = './';
     <main>
         <div class="fv">
             <img class="pc" src="fv_pc.png" alt="">
+            <img class="smart_1" src="fv_smart_1.png" alt="">
             <img class="smart" src="fv_smart.png" alt="">
             <img class="open" src="fv_open.png" alt="">
             <a class="btn" href="">
