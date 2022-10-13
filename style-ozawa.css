@@ -1,60 +1,69 @@
 @charset "UTF-8";
-footer {
-    background-color:aliceblue;
+
+.bg_beige {
+    background-color: #FFFCF8;
+    max-width: 1080px;
     padding: 16px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
 }
 
-.title{
-    font-size: 32px;
+.bg_beige a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bg_beige h1 {
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -46px;
     text-align: center;
-    height: 100px;
+    font-size: 28px;
 }
 
-.latte_box{
-    max-width: 1280px; 
-    margin: auto;
+.bg_beige .flexbox {
+    margin: 16px 0;
 }
 
-.foot_1 img {
-    width: 240ex;
-}
-
-.foot_3{
-    margin: auto;
-    padding-left: 48px;
-    padding-right: 16px;
-}
-
-.kakeru{
-    margin: auto;
-    padding: 4px;
+.bg_beige .flexbox .company_name {
+    margin-bottom: 16px;
     text-align: center;
-    font-size: 48px;
-    color: lightpink;
 }
 
-.box{
-    float:left;
-    margin: auto;
-    padding: 34px;
-}
-
-.box_1{
-    float: left;
-    margin: auto;
-    padding: 34px;
-}
-
-.boxContainer{
-    overflow: hidden;
-}
-
-.Copyright{
-    float: left;
-    margin: auto;
-    padding-left: 180px;
-    padding-right: 180px;
+.bg_beige .img_wrapper {
     text-align: center;
-    height: auto;
-    background-color: lightpink;
+}
+
+.bg_beige .flexbox img {
+    width: 100%;
+    max-width: 320px;
+}
+
+.bg_beige .flexbox address {
+    font-style: normal;
+    width: fit-content;
+    margin: auto;
+}
+
+.bg_beige .kakeru {
+    width: 16%;
+    max-width: 48px;
+}
+
+@media(min-width: 768px) {
+    .bg_beige .flexbox {
+        display: flex;
+    }
+
+    .bg_beige .flexbox .company_name {
+        flex-basis: 50%;
+    }
+
+    .bg_beige .flexbox address {
+        flex-basis: 50%;
+    }
 }
