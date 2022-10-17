@@ -162,10 +162,31 @@ $base = '../';
                     留意事項を確認のうえ、下記のフォームに必要事項を入力し送信してください。<br>
                     <span>*マークは必須事項です</span>
                 </p>
-                <a class="btn" href="">
-                    確認する
-                    <img class="arrow" src="<?= $base ?>yajirushi.png" alt="&gt">
-                </a>
+
+                <form id="form" action="./confirm.php" method="post" class="contact-form">
+                    <dl class="form_list">
+                        <div>
+                            <dt><label for="company_name">会社・サロン名</label><span class="required">*</span></dt>
+                            <dd><input type="text" name="company_name" id="company_name" placeholder="例；株式会社ラテスパマルシェ"></dd>
+                        </div>
+                        <div>
+                            <dt><label for="name">氏名</label><span class="required">*</span></dt>
+                            <dd><input type="text" id="name" name="name" placeholder="例：ラテスパ太郎"></dd>
+                        </div>
+                        <div>
+                            <dt><label for="email">メールアドレス</label></dt>
+                            <dd><input type="mail" id="email" name="email" placeholder="例：example@mail.com"></dd>
+                        </div>
+                        <div>
+                            <dt><label for="tel">電話番号</label><span class="required">*</span></dt>
+                            <dd><input type="tel" name="tel" id="tel" name="tel" placeholder="000-1234-5678"></dd>
+                        </div>
+                    </dl>
+                    <button class="btn" type="submit">
+                        確認する
+                        <img class="arrow" src="<?= $base ?>yajirushi.png" alt="&gt">
+                    </button>
+                </form>
             </div>
         </section>
     </main>

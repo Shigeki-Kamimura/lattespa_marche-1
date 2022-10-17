@@ -289,3 +289,7 @@ h3 {
 #form p span {
     color: #FF9A9E;
 }
+
+#form > dl > div {
+    display: flex;
+}
